@@ -1,4 +1,11 @@
 .env
-chroma_db
-checkpoints.sqlite
-memory.sqlite.env
+.venv/
+__pycache__/
+*.pyc
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+chroma_db/
+memory_chroma/
